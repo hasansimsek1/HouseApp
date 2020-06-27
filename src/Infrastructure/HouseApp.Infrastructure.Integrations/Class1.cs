@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HouseApp.Business.Services
+namespace HouseApp.Infrastructure.Integrations
 {
     public class Class1
     {
