@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace HouseApp.UnitTests.Data
+namespace HouseApp.UnitTests.Infrastructure
 {
     public class UnitTest1
     {

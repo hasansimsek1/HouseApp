@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace HouseApp.UnitTests.UI
+namespace HouseApp.UnitTests.Presentation
 {
     public class UnitTest1
     {

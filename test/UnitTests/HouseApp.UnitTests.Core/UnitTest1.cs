@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace HouseApp.UnitTests.Business
+namespace HouseApp.UnitTests.Core
 {
     public class UnitTest1
     {
