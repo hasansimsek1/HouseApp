@@ -17,27 +17,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3D996D3D-FDB0-4F85-A4B8-85D7F9291D71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Core.DomainModel", "src\Core\HouseApp.Core.DomainModel\HouseApp.Core.DomainModel.csproj", "{BC361FEC-F660-425D-A495-D59A560B3703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Core.DomainModel", "src\Core\HouseApp.Core.DomainModel\HouseApp.Core.DomainModel.csproj", "{BC361FEC-F660-425D-A495-D59A560B3703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Core.ApplicationService", "src\Core\HouseApp.Core.ApplicationService\HouseApp.Core.ApplicationService.csproj", "{9C0CCACD-E2D1-4E7D-B19F-D8C4C3A1498F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Core.ApplicationService", "src\Core\HouseApp.Core.ApplicationService\HouseApp.Core.ApplicationService.csproj", "{9C0CCACD-E2D1-4E7D-B19F-D8C4C3A1498F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Infrastructure.Data.SQLite", "src\Infrastructure\HouseApp.Infrastructure.Data.SQLite\HouseApp.Infrastructure.Data.SQLite.csproj", "{C3A83764-A6A1-42E5-BF78-416471A7C6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Infrastructure.Data.SQLite", "src\Infrastructure\HouseApp.Infrastructure.Data.SQLite\HouseApp.Infrastructure.Data.SQLite.csproj", "{C3A83764-A6A1-42E5-BF78-416471A7C6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Infrastructure.Data.SqlServer", "src\Infrastructure\HouseApp.Infrastructure.Data.SqlServer\HouseApp.Infrastructure.Data.SqlServer.csproj", "{C8756BB8-BA82-4EA5-9A31-242AD585CC06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Infrastructure.Data.SqlServer", "src\Infrastructure\HouseApp.Infrastructure.Data.SqlServer\HouseApp.Infrastructure.Data.SqlServer.csproj", "{C8756BB8-BA82-4EA5-9A31-242AD585CC06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Infrastructure.Logging", "src\Infrastructure\HouseApp.Infrastructure.Logging\HouseApp.Infrastructure.Logging.csproj", "{F62551A2-1F78-4C96-9AB5-B36FBB1712FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Infrastructure.Logging", "src\Infrastructure\HouseApp.Infrastructure.Logging\HouseApp.Infrastructure.Logging.csproj", "{F62551A2-1F78-4C96-9AB5-B36FBB1712FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Infrastructure.Integrations", "src\Infrastructure\HouseApp.Infrastructure.Integrations\HouseApp.Infrastructure.Integrations.csproj", "{005350C0-CF06-4354-867C-06CE7A3CBF28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Infrastructure.Integrations", "src\Infrastructure\HouseApp.Infrastructure.Integrations\HouseApp.Infrastructure.Integrations.csproj", "{005350C0-CF06-4354-867C-06CE7A3CBF28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Presentation.Api", "src\Presentation\HouseApp.Presentation.Api\HouseApp.Presentation.Api.csproj", "{C120353E-220F-4441-A3B8-456A6CFD28A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.Presentation.Api", "src\Presentation\HouseApp.Presentation.Api\HouseApp.Presentation.Api.csproj", "{C120353E-220F-4441-A3B8-456A6CFD28A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.IntegrationTests.Database", "test\IntegrationTests\HouseApp.IntegrationTests.Database\HouseApp.IntegrationTests.Database.csproj", "{657EE356-6E30-4BCB-8DC6-FE1998ED76A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.IntegrationTests.Database", "test\IntegrationTests\HouseApp.IntegrationTests.Database\HouseApp.IntegrationTests.Database.csproj", "{657EE356-6E30-4BCB-8DC6-FE1998ED76A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.UnitTests.Core", "test\UnitTests\HouseApp.UnitTests.Core\HouseApp.UnitTests.Core.csproj", "{FE7FE421-D36B-4F87-9A6D-C3E951979507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.UnitTests.Core", "test\UnitTests\HouseApp.UnitTests.Core\HouseApp.UnitTests.Core.csproj", "{FE7FE421-D36B-4F87-9A6D-C3E951979507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.UnitTests.Infrastructure", "test\UnitTests\HouseApp.UnitTests.Infrastructure\HouseApp.UnitTests.Infrastructure.csproj", "{B7782793-82F3-4221-99F5-DA7080381D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.UnitTests.Infrastructure", "test\UnitTests\HouseApp.UnitTests.Infrastructure\HouseApp.UnitTests.Infrastructure.csproj", "{B7782793-82F3-4221-99F5-DA7080381D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.UnitTests.Presentation", "test\UnitTests\HouseApp.UnitTests.Presentation\HouseApp.UnitTests.Presentation.csproj", "{81788569-851B-464E-9504-9C76AD924053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseApp.UnitTests.Presentation", "test\UnitTests\HouseApp.UnitTests.Presentation\HouseApp.UnitTests.Presentation.csproj", "{81788569-851B-464E-9504-9C76AD924053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseApp.Infrastructure.Configurations", "src\Infrastructure\HouseApp.Infrastructure.Configurations\HouseApp.Infrastructure.Configurations.csproj", "{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{81788569-851B-464E-9504-9C76AD924053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81788569-851B-464E-9504-9C76AD924053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81788569-851B-464E-9504-9C76AD924053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{FE7FE421-D36B-4F87-9A6D-C3E951979507} = {9ECC26B2-2B49-42A1-907A-46F0922841E0}
 		{B7782793-82F3-4221-99F5-DA7080381D9C} = {9ECC26B2-2B49-42A1-907A-46F0922841E0}
 		{81788569-851B-464E-9504-9C76AD924053} = {9ECC26B2-2B49-42A1-907A-46F0922841E0}
+		{41F1FDBA-A40D-47A0-B1DF-5A92C3D0943B} = {924DA171-CF33-4348-B632-F097F5994383}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9323FA9-193C-4D18-A7EA-7FD8505AC18D}
